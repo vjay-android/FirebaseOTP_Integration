@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgView"
+        style="@style/imagestatic" />
+
+    <TextView
+        android:id="@+id/txtView1"
+        style="@style/txtview1" />
+
+    <TextView
+        android:id="@+id/txtView2"
+        style="@style/txtview12" />
+
+    <EditText
+        android:id="@+id/et_phone_number"
+        style="@style/EdittextStyle"
+        android:layout_below="@+id/txtView2"
+        android:hint="@string/phone_number"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/et_otp"
+        style="@style/EdittextStyle"
+        android:layout_below="@+id/et_phone_number"
+        android:hint="@string/enter_otp"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_generate_otp"
+        style="@style/SigninButton"
+        android:layout_below="@+id/et_otp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_sign_in"
+        style="@style/SigninButton1"
+        android:layout_below="@+id/btn_generate_otp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</RelativeLayout>

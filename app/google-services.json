@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "82278006264",
+    "project_id": "otp-authentication-f17fb",
+    "storage_bucket": "otp-authentication-f17fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82278006264:android:361a75e390ae77abc62a0d",
+        "android_client_info": {
+          "package_name": "com.vijay.otpauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82278006264-usejn7f8l4du66ca9b6e7mh7nuacdnnl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vijay.otpauthentication",
+            "certificate_hash": "1a273face0e74a5e16a532f31bbe6f777ec5b488"
+          }
+        },
+        {
+          "client_id": "82278006264-bh73jsht84c1i171f266g4qjmqltvamk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjxhCjMJhRE74IcGtItoHnMTjs_2eefxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82278006264-bh73jsht84c1i171f266g4qjmqltvamk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

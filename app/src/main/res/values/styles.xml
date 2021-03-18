@@ -1,0 +1,65 @@
+<resources>
+
+    <style name="EdittextStyle">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="SigninButton">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/generate_otp</item>
+        <item name="android:background">@drawable/btn_rounded_red</item>
+    </style>
+
+    <style name="SigninButton1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/verify_sign_in</item>
+        <item name="android:background">@drawable/btn_rounded_green</item>
+    </style>
+
+    <style name="txtview1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/grey_80</item>
+        <item name="android:text">@string/verify_number</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Title</item>
+        <item name="android:layout_below">@id/imgView</item>
+
+    </style>
+
+    <style name="txtview12">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/verify_code</item>
+        <item name="android:textColor">@color/grey_60</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Subhead</item>
+        <item name="android:layout_below">@id/txtView1</item>
+
+    </style>
+
+    <style name="imagestatic">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/img_number_verification</item>
+    </style>
+
+</resources>

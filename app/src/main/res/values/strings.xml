@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OTP Authentication</string>
+
+    <string name="phone_number">Enter Your Phone Number</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_sign_in">Verify and Sign In</string>
+    <string name="sign_out">sign out</string>
+    <string name="verify_number">Verify Your Number</string>
+    <string name="verify_code">Please enter your mobile number to receive a verification code</string>
+
+
+</resources>
