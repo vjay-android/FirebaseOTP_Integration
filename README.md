@@ -1,4 +1,4 @@
-# FirebaseOTP_Integration
+# FirebaseOTP Integration
 Authenticate with Firebase on Android using a Phone Number
 
 Enable Phone Number sign-in for your Firebase project
