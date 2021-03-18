@@ -10,6 +10,7 @@ dependencies {
 
     // Declare the dependency for the Firebase Authentication library
     // When using the BoM, you don't specify versions in Firebase library dependencies
+    
     implementation 'com.google.firebase:firebase-auth'
 }
 
@@ -41,6 +42,7 @@ mCallbacks = new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
         // This callback will be invoked in two situations:
         // 1 - Instant verification. In some cases the phone number can be instantly
         //     verified without needing to send or enter a verification code.
+        
         // 2 - Auto-retrieval. On some devices Google Play services can automatically
         //     detect the incoming verification SMS and perform verification without
         //     user action.
